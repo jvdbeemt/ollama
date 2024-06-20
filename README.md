@@ -13,7 +13,7 @@ Improvements from previous attempts:
 
 **Implementation**:
 
-**Roundtrip environments too slow**
+*Roundtrip environments too slow*
 
 To circumvent we introduce two variables:
 - environment
@@ -21,5 +21,5 @@ To circumvent we introduce two variables:
 
 The deployment pipeline can be run manually to only upgrade/change configuration a single component in a specific environment.
 
-**No visible secrets:**  
+*No visible secrets*
 Helmfile will show secrets by default whenever you template or diff. Use the --supress-secrets option seems viable.
