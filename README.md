@@ -1,6 +1,6 @@
 **Deployment pipeline haas-helmfiles**
 
-To achieve a desired deployment pipeline that can reach maturity to production, we must learn from our previous attempts. Everyone can fill in
+To achieve a desired deployment pipeline that can reach maturity to production, we must learn from our previous attempts.   Everyone can fill in
 the maintain and improvements section and suggest a way to solve this. 
 
 Maintain from previous attempts:
