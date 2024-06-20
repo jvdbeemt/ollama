@@ -21,5 +21,5 @@ To circumvent we introduce two variables:
 
 The deployment pipeline can be run manually to only upgrade/change configuration a single component in a specific environment.
 
-*No visible secrets*
+*No visible secrets*  
 Helmfile will show secrets by default whenever you template or diff. Use the --supress-secrets option seems viable.
