@@ -3,7 +3,7 @@
 To achieve a desired deployment pipeline that can reach maturity to production, we must learn from our previous attempts.   Everyone can fill in
 the maintain and improvements section and suggest a way to solve this. 
 
-Maintain from previous attempts:
+<span style="color:green">Maintain from previous attempts</span>
 - [x] production is always a manual action
 
 Improvements from previous attempts:
