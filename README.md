@@ -1,9 +1,9 @@
 **Deployment pipeline haas-helmfiles**
 
-To achieve a desired deployment pipeline that can reach maturity to production, we must learn from our previous attempts. Everyone can fill in
+To achieve a desired deployment pipeline that can reach maturity to production, we must learn from our previous attempts.   Everyone can fill in
 the maintain and improvements section and suggest a way to solve this. 
 
-Maintain from previous attempts:
+Maintain from previous attempts
 - [x] production is always a manual action
 
 Improvements from previous attempts:
@@ -13,12 +13,13 @@ Improvements from previous attempts:
 
 **Implementation**:
 
-**Roundtrip environments too slow**
+*Roundtrip environments too slow*
 
 To circumvent we introduce two variables:
 - environment
-- component
+- component  
+
 The deployment pipeline can be run manually to only upgrade/change configuration a single component in a specific environment.
 
-**No visible secrets:**
+*No visible secrets*  
 Helmfile will show secrets by default whenever you template or diff. Use the --supress-secrets option seems viable.
